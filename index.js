@@ -22,3 +22,18 @@ function inc(n) {
   n++
   return n
 }
+
+function inc(n) {
+  n--
+  return n
+}
+
+makeInt(n) {
+  parseInt(n,10)
+  return n
+}
+
+preserveDecimal(n) {
+  parseFloat(n)
+  return n
+}
